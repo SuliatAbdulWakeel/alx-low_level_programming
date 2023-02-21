@@ -11,7 +11,9 @@ int main(void)
 	int i;
 	int sum;
 
-	for (i = 0; i < 10; i++)
+	sum = 0;
+
+	for (i = 0 ; i < 1024 ; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
